@@ -1,0 +1,15 @@
+name: hh-qmdn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - uproot
+  - awkward
+  - pyarrow
+  - pip
+  - pip:
+      - pylhe
+      - vector
