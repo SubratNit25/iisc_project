@@ -33,7 +33,6 @@ dependencies:
   # Compilers / acceleration
   - clang-tools
   - cxx-compiler
-  - gfortran_linux-64=9  # <--- ADD THIS (Forces Version 9)
   - ninja
   - pybind11
   - numba
