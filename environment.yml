@@ -1,8 +1,6 @@
 name: iisc project
-
 channels:
   - conda-forge
-
 dependencies:
   - python=3.11
 
@@ -32,9 +30,10 @@ dependencies:
   - hepunits
   - particle
 
-  # Compilers / acceleration (keep, do not use yet)
+  # Compilers / acceleration
   - clang-tools
   - cxx-compiler
+  - gfortran_linux-64=9  # <--- ADD THIS (Forces Version 9)
   - pybind11
   - numba
   - jax
